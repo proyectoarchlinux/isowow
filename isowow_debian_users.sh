@@ -47,7 +47,7 @@ do
   case "$opt" in
     1)
       echo "error"
-      sudo dd if="$iso" of=/dev/sdb
+      sudo dd bs=4M if="$iso" of=/dev/sdb status=progress && sync
       echo ""
       clear
       echo ""
@@ -56,7 +56,7 @@ do
       menu
     ;;
     2)
-      sudo dd if="$iso" of=/dev/sdc
+      sudo dd bs=4M if="$iso" of=/dev/sdc status=progress && sync
       echo ""
       clear
       echo ""
@@ -65,7 +65,7 @@ do
       menu
     ;;
     3)
-      sudo dd if="$iso" of=/dev/sdd
+      sudo dd bs=4M if="$iso" of=/dev/sdd status=progress && sync
       echo ""
       clear
       echo ""
@@ -74,7 +74,7 @@ do
       menu
     ;;
     4)
-      sudo dd if="$iso" of=/dev/sde
+      sudo dd bs=4M if="$iso" of=/dev/sde status=progress && sync
       echo ""
       clear
       echo ""
@@ -83,7 +83,7 @@ do
       menu
     ;;
     5)
-      sudo dd if="$iso" of=/dev/sdf
+      sudo dd bs=4M if="$iso" of=/dev/sdf status=progress && sync
       echo ""
       clear
       echo ""
