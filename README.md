@@ -2,6 +2,10 @@
 
 Un script para la creación de un usb arrancable (booteable).
 
+### Versión en colaboración con Cóigo Cristo en la carpeta contenedora.
+
+> Su github: <a>https://github.com/CodigoCristo</a>
+  
 # Dependencias
 
 - figlet
