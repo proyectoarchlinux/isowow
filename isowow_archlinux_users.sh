@@ -43,7 +43,7 @@ iso=$(ls *.iso)
 error_reported
 
 until [ "$opt" -eq 7 ]
-do
+ do
   case "$opt" in
     1)
       echo "error"
